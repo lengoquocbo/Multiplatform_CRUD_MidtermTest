@@ -1,0 +1,25 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "crud-giuaki-quocbo",
+          "appId": "1:207980900111:android:e63fe6c121d28c36ac987a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "crud-giuaki-quocbo",
+          "configurations": {
+            "android": "1:207980900111:android:e63fe6c121d28c36ac987a",
+            "web": "1:207980900111:web:dacdb88ab8794922ac987a"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules"
+  }
+}

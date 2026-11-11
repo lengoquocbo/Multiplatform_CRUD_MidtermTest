@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "207980900111",
+    "project_id": "crud-giuaki-quocbo",
+    "storage_bucket": "crud-giuaki-quocbo.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207980900111:android:e63fe6c121d28c36ac987a",
+        "android_client_info": {
+          "package_name": "com.example.gk_dnt_le_ngo_quoc_bo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4b5OaisybI3N-8WLuk2qwPJ2LM0rgRIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

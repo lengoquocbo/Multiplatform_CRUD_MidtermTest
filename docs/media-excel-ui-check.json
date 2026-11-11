@@ -1,0 +1,24 @@
+{
+  "project": "crud-giuaki-quocbo",
+  "browser": "localhost:7358",
+  "ui_observed": [
+    "Admin login succeeded with rebuilt Web plugins on fresh origin",
+    "HTML URL displayed image error",
+    "Actual file chooser selected JPEG bytes and switched active source to File",
+    "Product saved and Data URI image rendered after browser page reload",
+    "Actual XLSX file chooser previewed two valid rows",
+    "Confirmation imported 2/2 rows; save controls disabled after completion",
+    "Both imported products and HTTPS images rendered after browser page reload"
+  ],
+  "server_verified": [
+    "Fresh server read confirmed exactly four fields in all three UI-created documents",
+    "File image field contains JPEG Data URI, not stale HTML URL",
+    "Both UI-imported Excel rows match values and image URLs",
+    "Deleted only three uniquely identified UI test IDs; GET confirmed 404; pre-existing documents unchanged"
+  ],
+  "not_tested": [
+    "Real camera/webcam capture and permission denial on hardware",
+    "New Android runtime file/camera/Excel flow"
+  ],
+  "screenshot": "docs/excel-import-ui.jpg"
+}

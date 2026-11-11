@@ -1,0 +1,14 @@
+{
+  "project": "crud-giuaki-quocbo",
+  "checks": [
+    "Unauthenticated read denied",
+    "Create then fresh server GET equals exactly four fields",
+    "Rules reject invalid types, negative values, blank name, HTTP URL, extra field, NaN and infinity",
+    "Update verified by fresh server GET",
+    "Exported server products into data/products.json",
+    "JSON reimport verified, existing ID conflict rejected",
+    "Real non-admin account read/write denied",
+    "Only generated test documents/account deleted; deletions verified by GET 404"
+  ],
+  "export_note": "Export contains a temporary test product actually read from Firestore. Test documents were removed afterward."
+}

@@ -1,0 +1,11 @@
+{
+  "project": "crud-giuaki-quocbo",
+  "checks": [
+    "Saved real compressed JPEG Data URI; fresh login/server GET returned exact image and exactly four fields",
+    "Rules rejected malformed image prefix/Base64, oversized Data URI and oversized HTTPS URL",
+    "Imported 2 rows parsed by the app OOXML parser from the actual XLSX template; verified all rows with server GET",
+    "Unauthenticated image read denied",
+    "Removed only owned test IDs; confirmed deletion by server GET 404"
+  ],
+  "scope": "Real Firebase API tests using app image processing and XLSX parser output; browser page reload and camera hardware were not tested."
+}
